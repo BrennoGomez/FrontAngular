@@ -1,0 +1,67 @@
+{
+  "produtos": [
+    {
+      "id": "camisa-multimarca",
+      "name": "Camisas Multimarcas",
+      "category": "Camisas multimarcas, gola careca",
+      "deliveryEstimate": "R$ 39,99",
+      "rating": 4.9,
+      "imagePath": "assets/img/produtos/camisa-logo.jpg",
+      "about": "Tamanhos P, M, G e GG",
+      "hours": "Réplica 1° linha"
+    }
+  ],
+  "menu": [
+    {
+      "id": "camisa-lacoste-tamanho-p-preta",
+      "imagePath": "assets/img/camisas/p/lacoste-preta.jpeg",
+      "name": "Camisa Lacoste",
+      "description": "Tamanho P. Cor preta",
+      "price": 39.99,
+      "produtoId": "camisa-multimarca"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Julia",
+      "date": "2019-01-23T18:25:43",
+      "rating": 4.5,
+      "comments": "Tudo muito bom, entrega no tempo certo",
+      "produtoId": "camisa-multimarca"
+    }
+  ],
+  "orders": [
+    {
+      "name": "Breno Gomes",
+      "email": "brennogomez9@gmail.com",
+      "emailConfirmation": "brennogomez9@gmail.com",
+      "address": "Rua Aristides Lobo",
+      "number": "202",
+      "optionalAddress": "Casa 2",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "camisa-lacoste"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Valério",
+      "email": "valeriobatista2@gmail.com",
+      "emailConfirmation": "valeriobatista2@gmail.com",
+      "address": "Aristides Lobo",
+      "number": "202",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "camisa-lacoste-tamanho-p-preta"
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
