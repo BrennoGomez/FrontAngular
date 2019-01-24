@@ -1,7 +1,7 @@
 {
   "produtos": [
     {
-      "id": "camisa-multimarca",
+      "id": "camisas-multimarca",
       "name": "Camisas Multimarcas",
       "category": "Camisas multimarcas, gola careca",
       "deliveryEstimate": "R$ 39,99",
@@ -9,6 +9,116 @@
       "imagePath": "assets/img/produtos/camisa-logo.jpg",
       "about": "Tamanhos P, M, G e GG",
       "hours": "Réplica 1° linha"
+    },
+
+    {
+      "id": "sandalias-reserva",
+      "name": "Sandálias Reserva",
+      "category": "Sandálias Reserva",
+      "deliveryEstimate": "R$ 39,99",
+      "rating": 4.9,
+      "imagePath": "assets/img/produtos/sandalia-logo.jpg",
+      "about": "Tamanhos 37-38, 38-40, 41-42 e 43-44",
+      "hours": "Réplica 1° linha"
+    },
+
+    {
+      "id": "tenis-multimarcas",
+      "name": "Tênis Multimarcas",
+      "category": "Tênis diversas marcas",
+      "deliveryEstimate": "R$ 129,99",
+      "rating": 4.9,
+      "imagePath": "assets/img/produtos/tenis.jpg",
+      "about": "Tamanhos 38, 39, 40, 41, 42 e 43",
+      "hours": "Réplica 1° linha"
+    },
+
+    {
+      "id": "bermudas",
+      "name": "Bermudas",
+      "category": "Bermudas em cores",
+      "deliveryEstimate": "R$ 49,99",
+      "rating": 4.9,
+      "imagePath": "assets/img/produtos/bermuda-logo.jpg",
+      "about": "Tamanhos 38, 40, 42, 44 e 46",
+      "hours": "Produto fabricado no Brasil"
+    },
+
+    {
+      "id": "bolsas-feminina",
+      "name": "Bolsas",
+      "category": "Bolsas Arezzo e Schutz",
+      "deliveryEstimate": "R$ 149,99",
+      "rating": 4.9,
+      "imagePath": "assets/img/produtos/bolsa-logo.jpg",
+      "about": "Tamanho médio",
+      "hours": "Réplica 1° linha"
+    },
+
+    {
+      "id": "calcas-brim",
+      "name": "Calças",
+      "category": "Calças Skinny em Brim colorido",
+      "deliveryEstimate": "R$ 79,99",
+      "rating": 4.9,
+      "imagePath": "assets/img/produtos/calca-brim-logo.jpg",
+      "about": "Tamanhos 38, 40, 42, 44 e 46",
+      "hours": "Produto fabricado no Brasil"
+    },
+
+    {
+      "id": "calcas-jeans",
+      "name": "Calças",
+      "category": "Calças Skinny Jeans",
+      "deliveryEstimate": "R$ 79,99",
+      "rating": 4.9,
+      "imagePath": "assets/img/produtos/calca-jeans-logo.jpg",
+      "about": "Tamanhos 38, 40, 42, 44 e 46",
+      "hours": "Produto fabricado no Brasil"
+    },
+
+    {
+      "id": "cuecas",
+      "name": "Cuecas",
+      "category": "Cuecas Calvin Klein",
+      "deliveryEstimate": "R$ 19,99",
+      "rating": 4.9,
+      "imagePath": "assets/img/produtos/cueca-logo.jpg",
+      "about": "Tamanhos P, M, G e GG",
+      "hours": "Réplica 1° linha"
+    },
+
+    {
+      "id": "perfumes",
+      "name": "Perfumes",
+      "category": "Perfumes Mary Kay",
+      "deliveryEstimate": "A partir de R$ 95,00",
+      "rating": 4.9,
+      "imagePath": "assets/img/produtos/perfume-logo.jpg",
+      "about": "Perfumes e desodorantes",
+      "hours": "Produto importado"
+    },
+
+    {
+      "id": "relogios",
+      "name": "Relógios",
+      "category": "Relógios das melhores marcas",
+      "deliveryEstimate": "A partir de R$ 274,99",
+      "rating": 4.9,
+      "imagePath": "assets/img/produtos/relogio-logo.jpg",
+      "about": "Garantia de 1 ano",
+      "hours": "Produtos originais e réplicas de 1° linha"
+    },
+
+    {
+      "id": "shorts",
+      "name": "Shorts",
+      "category": "Shorts do verão",
+      "deliveryEstimate": "R$ 29,99",
+      "rating": 4.9,
+      "imagePath": "assets/img/produtos/short-logo.jpg",
+      "about": "Tamanhos P, M, G e GG",
+      "hours": "Produto fabricado no Brasil"
     }
   ],
   "menu": [
@@ -18,8 +128,50 @@
       "name": "Camisa Lacoste",
       "description": "Tamanho P. Cor preta",
       "price": 39.99,
-      "produtoId": "camisa-multimarca"
+      "produtoId": "camisas-multimarca"
+    },
+
+    {
+      "id": "camisa-adidas-tamanho-m-branca",
+      "imagePath": "assets/img/camisas/m/adidas-branca-m.jpeg",
+      "name": "Camisa Adidas",
+      "description": "Tamanho M. Cor branca",
+      "price": 39.99,
+      "produtoId": "camisas-multimarca"
+    },    {
+      "id": "camisa-hugoboss-tamanho-g-vinho",
+      "imagePath": "assets/img/camisas/g/hugo-boss-vinho.jpeg",
+      "name": "Camisa Hugo Boss",
+      "description": "Tamanho G. Cor vinho",
+      "price": 39.99,
+      "produtoId": "camisas-multimarca"
+    },    {
+      "id": "camisa-armani-tamanho-gg-vermelha",
+      "imagePath": "assets/img/camisas/gg/armani-vermelha.jpeg",
+      "name": "Camisa Armani Exchange",
+      "description": "Tamanho GG. Cor vermelha",
+      "price": 39.99,
+      "produtoId": "camisas-multimarca"
+    },
+
+    {
+      "id": "sandalia-reserva-branca-vermelha-amarela-43-44",
+      "imagePath": "assets/img/sandalias/sandalia-branca.jpg",
+      "name": "Sandália Reserva",
+      "description": "Tamanho 43-44. Cor branca",
+      "price": 39.99,
+      "produtoId": "sandalias-reserva"
+    },
+
+    {
+      "id": "sapatenis-reserva-azul-41",
+      "imagePath": "assets/img/tenis/sapatenis-reserva-azul.jpg",
+      "name": "Sapatênis Reserva",
+      "description": "Tamanho 41. Cor azul",
+      "price": 129.99,
+      "produtoId": "tenis-multimarca"
     }
+
   ],
   "reviews": [
     {
@@ -27,7 +179,7 @@
       "date": "2019-01-23T18:25:43",
       "rating": 4.5,
       "comments": "Tudo muito bom, entrega no tempo certo",
-      "produtoId": "camisa-multimarca"
+      "produtoId": "camisas-multimarca"
     }
   ],
   "orders": [
