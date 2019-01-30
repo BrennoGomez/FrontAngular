@@ -1,6 +1,6 @@
 <a [routerLink]="['/produtos', produto.id]">
-  <div class="place-info-box" [@produtoAppeared]="produtoState">
-    <span class="place-info-box-icon"><img [src]="produto.imagePath" /></span>
+  <div class="place-info-box div-img" [@produtoAppeared]="produtoState">
+    <span class="place-info-box-icon"><img height="120px" [src]="produto.imagePath" /></span>
 
     <div class="place-info-box-content">
       <span class="place-info-box-text">{{produto.name}}</span>

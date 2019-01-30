@@ -23,6 +23,8 @@
     "@angular/platform-browser-dynamic": "4.0.0",
     "@angular/router": "4.0.0",
     "admin-lte": "2.3.11",
+    "angular-ui-carousel": "^0.1.10",
+    "carousel": "0.0.3",
     "core-js": "2.4.1",
     "font-awesome": "4.7.0",
     "intl": "1.2.5",

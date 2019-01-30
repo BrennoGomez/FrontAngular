@@ -288,3 +288,51 @@ body {
 .navbar {
   color: #76cae2;
 }
+
+.div-img {
+  width: 75%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-foto {
+  display: flex;
+  max-width: 100%;
+  height: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 25%;
+  width: 200px;
+  height: 200px;
+}
+
+#hidden {
+  z-index:9999;
+  display:none;
+  background-color:#fff;
+  position:fixed;
+  height:100%;
+  width:100%;
+  left: 0px;
+  top: 0px;    
+  text-align: center;
+}
+.close {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.img-center{
+  justify-content: center;
+  align-items: center;
+}

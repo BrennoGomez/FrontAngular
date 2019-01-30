@@ -14,6 +14,8 @@ export class MenuComponent implements OnInit {
 
   menu: Observable<MenuItem[]>
 
+  currentImage
+
   constructor(private produtosService: ProdutosService,
               private route: ActivatedRoute) { }
 
@@ -21,6 +23,11 @@ export class MenuComponent implements OnInit {
     this.menu = this.produtosService
       .menuOfProduto(this.route.parent.snapshot.params['id'])
   }
+
+  setImage(image){
+    this.currentImage = image;
+  }
+
 
   addMenuItem(item: MenuItem){
     console.log(item)

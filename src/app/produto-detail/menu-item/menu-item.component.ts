@@ -18,6 +18,8 @@ import {MenuItem} from "./menu-item.model"
 })
 export class MenuItemComponent implements OnInit {
 
+  currentImage : string 
+  
   menuItemState = 'ready'
 
   @Input() menuItem: MenuItem
@@ -30,6 +32,10 @@ export class MenuItemComponent implements OnInit {
 
   emitAddEvent(){
     this.add.emit(this.menuItem)
+  }
+
+  setImage(image){
+    this.currentImage = image;
   }
 
 }

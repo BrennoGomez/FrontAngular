@@ -10,7 +10,6 @@
       "about": "Tamanhos P, M, G e GG",
       "hours": "Réplica 1° linha"
     },
-
     {
       "id": "sandalias-reserva",
       "name": "Sandálias Reserva",
@@ -21,7 +20,6 @@
       "about": "Tamanhos 37-38, 38-40, 41-42 e 43-44",
       "hours": "Réplica 1° linha"
     },
-
     {
       "id": "tenis-multimarcas",
       "name": "Tênis Multimarcas",
@@ -32,7 +30,6 @@
       "about": "Tamanhos 38, 39, 40, 41, 42 e 43",
       "hours": "Réplica 1° linha"
     },
-
     {
       "id": "bermudas",
       "name": "Bermudas",
@@ -43,7 +40,6 @@
       "about": "Tamanhos 38, 40, 42, 44 e 46",
       "hours": "Produto fabricado no Brasil"
     },
-
     {
       "id": "bolsas-feminina",
       "name": "Bolsas",
@@ -54,7 +50,6 @@
       "about": "Tamanho médio",
       "hours": "Réplica 1° linha"
     },
-
     {
       "id": "calcas-brim",
       "name": "Calças",
@@ -65,7 +60,6 @@
       "about": "Tamanhos 38, 40, 42, 44 e 46",
       "hours": "Produto fabricado no Brasil"
     },
-
     {
       "id": "calcas-jeans",
       "name": "Calças",
@@ -76,7 +70,6 @@
       "about": "Tamanhos 38, 40, 42, 44 e 46",
       "hours": "Produto fabricado no Brasil"
     },
-
     {
       "id": "cuecas",
       "name": "Cuecas",
@@ -87,7 +80,6 @@
       "about": "Tamanhos P, M, G e GG",
       "hours": "Réplica 1° linha"
     },
-
     {
       "id": "perfumes",
       "name": "Perfumes",
@@ -98,7 +90,6 @@
       "about": "Perfumes e desodorantes",
       "hours": "Produto importado"
     },
-
     {
       "id": "relogios",
       "name": "Relógios",
@@ -109,7 +100,6 @@
       "about": "Garantia de 1 ano",
       "hours": "Produtos originais e réplicas de 1° linha"
     },
-
     {
       "id": "shorts",
       "name": "Shorts",
@@ -130,7 +120,6 @@
       "price": 39.99,
       "produtoId": "camisas-multimarca"
     },
-
     {
       "id": "camisa-adidas-tamanho-m-branca",
       "imagePath": "assets/img/camisas/m/adidas-branca-m.jpeg",
@@ -138,14 +127,16 @@
       "description": "Tamanho M. Cor branca",
       "price": 39.99,
       "produtoId": "camisas-multimarca"
-    },    {
+    },
+    {
       "id": "camisa-hugoboss-tamanho-g-vinho",
       "imagePath": "assets/img/camisas/g/hugo-boss-vinho.jpeg",
       "name": "Camisa Hugo Boss",
       "description": "Tamanho G. Cor vinho",
       "price": 39.99,
       "produtoId": "camisas-multimarca"
-    },    {
+    },
+    {
       "id": "camisa-armani-tamanho-gg-vermelha",
       "imagePath": "assets/img/camisas/gg/armani-vermelha.jpeg",
       "name": "Camisa Armani Exchange",
@@ -153,7 +144,6 @@
       "price": 39.99,
       "produtoId": "camisas-multimarca"
     },
-
     {
       "id": "sandalia-reserva-branca-vermelha-amarela-43-44",
       "imagePath": "assets/img/sandalias/sandalia-branca.jpg",
@@ -162,7 +152,6 @@
       "price": 39.99,
       "produtoId": "sandalias-reserva"
     },
-
     {
       "id": "sapatenis-reserva-azul-41",
       "imagePath": "assets/img/tenis/sapatenis-reserva-azul.jpg",
@@ -171,7 +160,6 @@
       "price": 129.99,
       "produtoId": "tenis-multimarca"
     }
-
   ],
   "reviews": [
     {
@@ -214,6 +202,22 @@
         }
       ],
       "id": 2
+    },
+    {
+      "name": "Breno Gomes",
+      "email": "breno@gmail.com",
+      "emailConfirmation": "breno@gmail.com",
+      "address": "Facisa",
+      "number": "1000",
+      "optionalAddress": "LTI",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "sandalia-reserva-branca-vermelha-amarela-43-44"
+        }
+      ],
+      "id": 3
     }
   ]
 }
